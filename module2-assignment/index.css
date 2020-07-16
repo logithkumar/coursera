@@ -1,1 +1,108 @@
 
+*{
+    padding:0%;
+    margin:0%;
+}
+h1{
+    text-align:center;
+    color:darkgreen;
+}
+#windows{
+    border: 3px solid black;
+    background:grey;
+    margin:20px;
+}
+#MAC{
+    border: 3px solid black;
+    background:grey;
+    margin:20px;
+}
+#linux{
+    border: 3px solid black;
+    background:grey;
+    margin:20px;
+}
+
+.a1{
+    text-align:center;
+    color:blue;
+    background:yellow;
+    border:2px solid black;
+    margin-left:65%;
+    padding:5px;
+}
+p{
+    padding:10px;
+}
+
+
+@media only screen and (min-width:768px){
+    h1{
+        text-align:center;
+        color:darkgreen;
+    }
+    #windows{
+        border: 3px solid black;
+        background:grey;
+        margin-right:410px;
+    }
+    #MAC{
+        border: 3px solid black;
+        background:grey;
+        margin-top:-230px;
+        margin-left:410px;
+    }
+    .a1{
+        text-align:center;
+        color:blue;
+        background:yellow;
+        border:2px solid black;
+        margin-left:60%;
+    }
+    p{
+        padding:10px;
+    }
+}
+
+@media only screen and (min-width:993px)
+{
+h1{
+    text-align:center;
+    padding-top:30px;
+    color:darkgreen;
+}
+#windows{
+    border: 3px solid black;
+    margin-right:980px;
+    background:grey;
+    margin-top:50px;
+    margin-left:20px;
+}
+#MAC{
+    border: 3px solid black;
+    margin-top:-210px;
+    margin-right:520px;
+    background:grey;
+    margin-left:460px;
+}
+#linux{
+    border:3px solid black;
+    background:grey;
+    margin-top:-215px;
+    margin-left:950px;
+    margin-right:50px;
+}
+p{
+    padding:10px;
+}
+.a1{
+    text-align:center;
+    color:blue;
+    background:yellow;
+    border:2px solid black;
+    margin-left:65%;
+    padding:5px;
+}
+}
+
+
